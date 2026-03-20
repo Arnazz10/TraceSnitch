@@ -19,8 +19,8 @@ const Home = () => {
               Elimination of defects through advanced spectral analysis.
             </p>
             <div className="hero-actions">
-              <Button size="lg">Initiate Scan Protocol</Button>
-              <Button variant="outline" size="lg">Technical Documents</Button>
+              <Button size="lg" to="/monitor">Initiate Scan Protocol</Button>
+              <Button variant="outline" size="lg" to="/docs">Technical Documents</Button>
             </div>
           </div>
           
