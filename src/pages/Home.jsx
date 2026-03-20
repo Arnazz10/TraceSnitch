@@ -32,7 +32,11 @@ const Home = () => {
               <div className="path horizontal p2"></div>
               <div className="path vertical p3"></div>
               <div className="path vertical p4"></div>
-              <div className="path angled p5"></div>
+              {/* Added Red and Blue Signals */}
+              <div className="path horizontal p1 red small"></div>
+              <div className="path horizontal p2 blue small"></div>
+              <div className="path vertical p3 blue small"></div>
+              <div className="path vertical p4 red small"></div>
             </div>
             <div className="scan-target"></div>
           </div>

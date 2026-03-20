@@ -128,15 +128,29 @@
 .horizontal::after { width: 40px; height: 100%; animation: pulse-h 3s infinite linear; }
 .vertical::after { height: 40px; width: 100%; animation: pulse-v 4s infinite linear; }
 
+/* Multicolor & Size variations */
+.path.small::after { width: 20px; height: 2px; }
+.path.red::after { background: #ff4d4d; box-shadow: 0 0 10px rgba(255, 77, 77, 0.8); }
+.path.blue::after { background: #4da6ff; box-shadow: 0 0 10px rgba(77, 166, 255, 0.8); }
+
 .p1 { top: 30%; }
 .p2 { top: 70%; }
 .p3 { left: 25%; }
 .p4 { left: 75%; }
 
+/* Offsets for small multicolor paths */
+.path.small.p1 { top: 32%; }
+.path.small.p2 { top: 68%; }
+.path.small.p3 { left: 27%; }
+.path.small.p4 { left: 73%; }
+
 .p1::after { animation-delay: 0s; }
 .p2::after { animation-delay: 1.5s; }
 .p3::after { animation-delay: 0.5s; }
 .p4::after { animation-delay: 2s; }
+
+/* Delayed start for small paths */
+.path.small::after { animation-duration: 2s; animation-delay: 1s; }
 
 @keyframes pulse-h {
   0% { left: -50px; opacity: 0; }
