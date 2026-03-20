@@ -10,6 +10,7 @@ import Pricing from './pages/Pricing';
 import Configuration from './pages/Configuration';
 import Monitor from './pages/Monitor';
 import Documentation from './pages/Documentation';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/monitor" element={<Monitor />} />
         <Route path="/docs" element={<Documentation />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );
