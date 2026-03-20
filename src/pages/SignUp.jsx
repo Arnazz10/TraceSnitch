@@ -7,7 +7,9 @@ const SignUp = () => {
   return (
     <div className="auth-page">
       <header className="auth-header">
-        <Link to="/" className="nav-logo neon-glow">TRACESNITCH</Link>
+        <Link to="/" className="nav-logo neon-glow">
+          <img src="/logo.png" alt="" style={{ height: '32px', width: 'auto' }} />
+        </Link>
         <div className="header-meta">
           <span className="icon">🛡</span>
           <span className="icon">?</span>
