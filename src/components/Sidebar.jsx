@@ -17,9 +17,8 @@ const Sidebar = () => {
   return (
     <aside className="sidebar glass">
       <div className="sidebar-header">
-        <Link to="/" className="sidebar-logo neon-glow flex items-center gap-2">
-          <img src="/logo.png" alt="Logo" style={{ width: '30px', height: 'auto' }} />
-          TRACESNITCH
+        <Link to="/" className="sidebar-logo neon-glow flex items-center justify-center py-4">
+          <img src="/logo.png" alt="" style={{ height: '60px', width: 'auto' }} />
         </Link>
         <div className="sidebar-sub">
           <span className="dot active"></span>

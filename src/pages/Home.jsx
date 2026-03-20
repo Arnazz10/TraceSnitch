@@ -11,8 +11,8 @@ const Home = () => {
       <main>
         <section className="hero">
           <div className="container hero-content fade-in">
-            <h1 className="hero-title flex flex-col items-center gap-6">
-              <img src="/logo.png" alt="Logo" style={{ width: '120px', height: 'auto', marginBottom: '1rem' }} className="fade-in" />
+            <h1 className="hero-title flex flex-col items-center">
+              <img src="/logo.png" alt="" style={{ width: '180px', height: 'auto', marginBottom: '2rem' }} className="fade-in" />
               <span>PRECISION <span className="neon-glow italic">BEYOND</span> PERCEPTION</span>
             </h1>
             <p className="hero-subtitle">
@@ -82,9 +82,8 @@ const Home = () => {
       </main>
 
       <footer className="footer container">
-        <div className="footer-logo neon-glow flex items-center gap-2">
-          <img src="/logo.png" alt="Logo" style={{ width: '24px', height: 'auto' }} />
-          TRACESNITCH
+        <div className="footer-logo neon-glow">
+          <img src="/logo.png" alt="" style={{ height: '30px', width: 'auto' }} />
         </div>
         <div className="footer-links">
           <a href="#">Documentation</a>

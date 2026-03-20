@@ -9,10 +9,9 @@ const Monitor = () => {
     <div className="monitor-page">
       <div className="monitor-sidebar glass">
         <div className="sidebar-header">
-          <div className="header-top">
-            <Link to="/" className="neon-glow font-bold flex items-center gap-2">
-              <img src="/logo.png" alt="Logo" style={{ width: '24px', height: 'auto' }} />
-              TRACESNITCH
+          <div className="header-top pb-4 flex justify-center">
+            <Link to="/" className="neon-glow font-bold">
+              <img src="/logo.png" alt="" style={{ height: '40px', width: 'auto' }} />
             </Link>
           </div>
           <div className="core-status mt-6">

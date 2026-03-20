@@ -6,9 +6,8 @@ const Navbar = () => {
   return (
     <nav className="navbar glass">
       <div className="nav-container">
-        <Link to="/" className="nav-logo neon-glow flex items-center gap-2">
-          <img src="/logo.png" alt="Logo" style={{ width: '28px', height: 'auto' }} />
-          TRACESNITCH
+        <Link to="/" className="nav-logo neon-glow">
+          <img src="/logo.png" alt="" style={{ height: '32px', width: 'auto' }} />
         </Link>
         <div className="nav-links">
           <Link to="/dashboard">Dashboard</Link>
