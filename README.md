@@ -1,4 +1,4 @@
-# 🛡️ Trace-Snitch Intelligence Systems
+#  Trace-Snitch Intelligence Systems
 
 ![Trace-Snitch Hero](./assets/hero-banner.png)
 
