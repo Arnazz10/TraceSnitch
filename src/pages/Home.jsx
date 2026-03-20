@@ -25,9 +25,15 @@ const Home = () => {
           </div>
           
           <div className="hero-visual glass">
-            {/* Mocked 3D Scan Visual */}
             <div className="scan-line"></div>
             <div className="scan-grid"></div>
+            <div className="circuit-paths">
+              <div className="path horizontal p1"></div>
+              <div className="path horizontal p2"></div>
+              <div className="path vertical p3"></div>
+              <div className="path vertical p4"></div>
+              <div className="path angled p5"></div>
+            </div>
             <div className="scan-target"></div>
           </div>
         </section>

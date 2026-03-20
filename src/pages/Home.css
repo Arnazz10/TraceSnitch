@@ -98,9 +98,56 @@
   position: absolute;
   inset: 0;
   background-image: 
-    linear-gradient(rgba(0, 255, 157, 0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 255, 157, 0.05) 1px, transparent 1px);
-  background-size: 40px 40px;
+    linear-gradient(rgba(0, 255, 157, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 157, 0.03) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+.circuit-paths {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.path {
+  position: absolute;
+  background: rgba(0, 255, 157, 0.1);
+}
+
+.path::after {
+  content: '';
+  position: absolute;
+  background: var(--accent-green);
+  box-shadow: 0 0 10px var(--accent-green-glow);
+  filter: blur(1px);
+}
+
+.horizontal { height: 1px; width: 100%; }
+.vertical { width: 1px; height: 100%; }
+
+.horizontal::after { width: 40px; height: 100%; animation: pulse-h 3s infinite linear; }
+.vertical::after { height: 40px; width: 100%; animation: pulse-v 4s infinite linear; }
+
+.p1 { top: 30%; }
+.p2 { top: 70%; }
+.p3 { left: 25%; }
+.p4 { left: 75%; }
+
+.p1::after { animation-delay: 0s; }
+.p2::after { animation-delay: 1.5s; }
+.p3::after { animation-delay: 0.5s; }
+.p4::after { animation-delay: 2s; }
+
+@keyframes pulse-h {
+  0% { left: -50px; opacity: 0; }
+  10%, 90% { opacity: 1; }
+  100% { left: 100%; opacity: 0; }
+}
+
+@keyframes pulse-v {
+  0% { top: -50px; opacity: 0; }
+  10%, 90% { opacity: 1; }
+  100% { top: 100%; opacity: 0; }
 }
 
 .section-header {
