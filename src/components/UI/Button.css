@@ -1,0 +1,51 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-weight: 500;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.875rem;
+}
+
+.btn-primary {
+  background-color: var(--accent-green);
+  color: #000;
+  font-weight: 700;
+}
+
+.btn-primary:hover {
+  background-color: var(--accent-green-hover);
+  box-shadow: 0 0 20px var(--accent-green-glow);
+  transform: translateY(-1px);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+}
+
+.btn-outline:hover {
+  border-color: var(--accent-green);
+  color: var(--accent-green);
+  background: rgba(0, 255, 157, 0.05);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--text-secondary);
+}
+
+.btn-ghost:hover {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.btn-sm { padding: 0.5rem 1rem; font-size: 0.75rem; }
+.btn-md { padding: 0.75rem 1.5rem; }
+.btn-lg { padding: 1rem 2rem; }
+.btn-full { width: 100%; }

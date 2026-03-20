@@ -1,0 +1,116 @@
+.pricing-header {
+  padding: 80px 0 60px;
+}
+
+.mx-auto { margin-left: auto; margin-right: auto; }
+
+.billing-toggle {
+  display: inline-flex;
+  padding: 0.5rem;
+  border-radius: 40px;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.billing-toggle .active {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.5rem 1.5rem;
+  border-radius: 30px;
+}
+
+.billing-toggle .inactive {
+  padding: 0.5rem 1.5rem;
+  color: var(--text-muted);
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.price-card {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.price-card.featured {
+  border: 1px solid var(--accent-green);
+  background: rgba(0, 255, 157, 0.02);
+}
+
+.featured-badge {
+  position: absolute;
+  top: 1rem;
+  right: -1rem;
+  background: var(--bg-primary);
+  border: 1px solid var(--accent-green);
+  padding: 4px 12px;
+  font-size: 0.65rem;
+  font-weight: 800;
+  transform: rotate(45deg);
+}
+
+.price-header h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.price-amount {
+  font-size: 3.5rem;
+  font-weight: 800;
+  font-family: var(--font-display);
+  margin: 2.5rem 0;
+}
+
+.price-amount .currency { font-size: 1.5rem; vertical-align: super; }
+.price-amount .period { font-size: 0.875rem; color: var(--text-muted); font-weight: 400; }
+
+.price-features {
+  list-style: none;
+  margin-bottom: 3rem;
+}
+
+.price-features li {
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.text-green { color: var(--accent-green); }
+
+.trust-badges {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  padding: 4rem 0;
+  border-top: 1px solid var(--border-color);
+}
+
+.trust-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.trust-item .icon { font-size: 1.5rem; }
+
+.mt-20 { margin-top: 5rem; }
+.mt-auto { margin-top: auto; }
+.mt-4 { margin-top: 1rem; }
