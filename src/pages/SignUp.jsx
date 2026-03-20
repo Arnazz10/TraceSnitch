@@ -62,7 +62,7 @@ const SignUp = () => {
               </div>
             </div>
 
-            <Link to="/dashboard" style={{ display: 'block' }}>
+            <Link to="/loading-home" style={{ display: 'block' }}>
               <Button variant="primary" size="lg" className="btn-full">Create Account <span>→</span></Button>
             </Link>
 

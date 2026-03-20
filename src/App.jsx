@@ -11,14 +11,18 @@ import Configuration from './pages/Configuration';
 import Monitor from './pages/Monitor';
 import Documentation from './pages/Documentation';
 import NotFound from './pages/NotFound';
+import Loading from './pages/Loading';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Loading nextPath="/login" />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/loading-home" element={<Loading nextPath="/home" />} />
+        <Route path="/loading-dashboard" element={<Loading nextPath="/dashboard" />} />
         <Route path="/recovery" element={<Recovery />} />
         <Route path="/two-factor" element={<TwoFactor />} />
         <Route path="/pricing" element={<Pricing />} />

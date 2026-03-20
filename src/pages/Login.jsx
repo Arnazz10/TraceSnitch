@@ -45,7 +45,7 @@ const Login = () => {
               <Link to="/recovery" className="link-muted">Recovery Protocol?</Link>
             </div>
 
-            <Link to="/two-factor" style={{ display: 'block' }}>
+            <Link to="/loading-home" style={{ display: 'block' }}>
               <Button variant="primary" size="lg" className="btn-full">Access System</Button>
             </Link>
 
