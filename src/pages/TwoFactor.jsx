@@ -7,7 +7,10 @@ const TwoFactor = () => {
   return (
     <div className="auth-page">
       <header className="auth-header">
-        <Link to="/" className="nav-logo neon-glow">TRACESNITCH <span className="mfa-badge">MFA v2.4</span></Link>
+        <Link to="/" className="nav-logo neon-glow">
+          <img src="/logo.png" alt="" style={{ height: '32px', width: 'auto' }} />
+          <span className="mfa-badge ml-4">MFA v2.4</span>
+        </Link>
         <div className="header-meta">
           <span className="icon">🛡</span>
           <span className="icon">?</span>
@@ -32,7 +35,7 @@ const TwoFactor = () => {
               ))}
             </div>
 
-            <Link to="/dashboard" style={{ display: 'block' }}>
+            <Link to="/loading-dashboard" style={{ display: 'block' }}>
               <Button variant="primary" size="lg" className="btn-full p-6">Verify Identity <span>→</span></Button>
             </Link>
 
