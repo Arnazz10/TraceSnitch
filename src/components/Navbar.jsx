@@ -6,7 +6,10 @@ const Navbar = () => {
   return (
     <nav className="navbar glass">
       <div className="nav-container">
-        <Link to="/" className="nav-logo neon-glow">TRACESNITCH</Link>
+        <Link to="/" className="nav-logo neon-glow flex items-center gap-2">
+          <img src="/logo.png" alt="Logo" style={{ width: '28px', height: 'auto' }} />
+          TRACESNITCH
+        </Link>
         <div className="nav-links">
           <Link to="/dashboard">Dashboard</Link>
           <Link to="/docs">Docs</Link>

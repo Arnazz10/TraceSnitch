@@ -11,7 +11,10 @@ const Home = () => {
       <main>
         <section className="hero">
           <div className="container hero-content fade-in">
-            <h1 className="hero-title">PRECISION <span className="neon-glow italic">BEYOND</span> PERCEPTION</h1>
+            <h1 className="hero-title flex flex-col items-center gap-6">
+              <img src="/logo.png" alt="Logo" style={{ width: '120px', height: 'auto', marginBottom: '1rem' }} className="fade-in" />
+              <span>PRECISION <span className="neon-glow italic">BEYOND</span> PERCEPTION</span>
+            </h1>
             <p className="hero-subtitle">
               Deploying sub-micron fidelity neural scanning for next-generation hardware manufacturing. 
               Elimination of defects through advanced spectral analysis.
@@ -79,7 +82,10 @@ const Home = () => {
       </main>
 
       <footer className="footer container">
-        <div className="footer-logo neon-glow">TRACESNITCH</div>
+        <div className="footer-logo neon-glow flex items-center gap-2">
+          <img src="/logo.png" alt="Logo" style={{ width: '24px', height: 'auto' }} />
+          TRACESNITCH
+        </div>
         <div className="footer-links">
           <a href="#">Documentation</a>
           <a href="#">Privacy</a>

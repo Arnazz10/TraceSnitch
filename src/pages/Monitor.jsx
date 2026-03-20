@@ -10,7 +10,10 @@ const Monitor = () => {
       <div className="monitor-sidebar glass">
         <div className="sidebar-header">
           <div className="header-top">
-            <Link to="/" className="neon-glow font-bold">TRACESNITCH</Link>
+            <Link to="/" className="neon-glow font-bold flex items-center gap-2">
+              <img src="/logo.png" alt="Logo" style={{ width: '24px', height: 'auto' }} />
+              TRACESNITCH
+            </Link>
           </div>
           <div className="core-status mt-6">
             <div className="flex items-center gap-3">
