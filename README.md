@@ -10,15 +10,15 @@
 
 ---
 
-## ⚡ Core Capabilities
+##  Core Capabilities
 
 Trace-Snitch is not just a dashboard; it's a complete protocol for hardware integrity.
 
-*   **🔍 High-Precision Scanning**: Real-time PCB anomaly detection using neural-trace algorithms.
-*   **📹 Multi-Node Monitoring**: Synchronized live feeds from up to 4 logic-critical camera arrays.
-*   **🛡️ Secure-Auth Protocol**: Multi-step identity verification including JWT-S key exchange and MFA.
-*   **📊 Statistical Overlook**: Comprehensive data visualization of failure trends and production velocity.
-*   **📜 Neural Documentation**: Deep-integrated API guides and hardware handshake protocols.
+*   ** High-Precision Scanning**: Real-time PCB anomaly detection using neural-trace algorithms.
+*   ** Multi-Node Monitoring**: Synchronized live feeds from up to 4 logic-critical camera arrays.
+*   ** Secure-Auth Protocol**: Multi-step identity verification including JWT-S key exchange and MFA.
+*   ** Statistical Overlook**: Comprehensive data visualization of failure trends and production velocity.
+*   ** Neural Documentation**: Deep-integrated API guides and hardware handshake protocols.
 
 ---
 
