@@ -14,15 +14,15 @@
 
 Trace-Snitch is not just a dashboard; it's a complete protocol for hardware integrity.
 
-*   ** High-Precision Scanning**: Real-time PCB anomaly detection using neural-trace algorithms.
-*   ** Multi-Node Monitoring**: Synchronized live feeds from up to 4 logic-critical camera arrays.
-*   ** Secure-Auth Protocol**: Multi-step identity verification including JWT-S key exchange and MFA.
-*   ** Statistical Overlook**: Comprehensive data visualization of failure trends and production velocity.
-*   ** Neural Documentation**: Deep-integrated API guides and hardware handshake protocols.
+*   **High-Precision Scanning**: Real-time PCB anomaly detection using neural-trace algorithms.
+*   **Multi-Node Monitoring**: Synchronized live feeds from up to 4 logic-critical camera arrays.
+*   **Secure-Auth Protocol**: Multi-step identity verification including JWT-S key exchange and MFA.
+*   **Statistical Overlook**: Comprehensive data visualization of failure trends and production velocity.
+*   **Neural Documentation**: Deep-integrated API guides and hardware handshake protocols.
 
 ---
 
-## 🚀 Deployment
+##  Deployment
 
 Trace-Snitch is optimized for Vercel deployment.
 
@@ -45,7 +45,7 @@ npm run build
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Frontend**: React 18 (Vite)
 - **Styling**: Premium Glassmorphism (Vanilla CSS)
@@ -55,7 +55,7 @@ npm run build
 
 ---
 
-## 🔗 Navigation
+##  Navigation
 
 - **[Dashboard](/dashboard)**: Statistical KPIs and Anomaly Distribution.
 - **[Live Monitor](/monitor)**: The Core-01 Scan-Processing Engine.
@@ -64,7 +64,7 @@ npm run build
 
 ---
 
-## 📜 Legal & Security
+##  Legal & Security
 
 Encrypted Connection Active. User access is subject to the **Hardware Access Agreement**. Trace-Snitch is an Open Source Core project.
 
