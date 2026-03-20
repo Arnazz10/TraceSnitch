@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Sidebar from '../components/Sidebar';
 import Button from '../components/UI/Button';
 import './Monitor.css';
@@ -9,7 +10,7 @@ const Monitor = () => {
       <div className="monitor-sidebar glass">
         <div className="sidebar-header">
           <div className="header-top">
-            <span className="neon-glow font-bold">TRACESNITCH</span>
+            <Link to="/" className="neon-glow font-bold">TRACESNITCH</Link>
           </div>
           <div className="core-status mt-6">
             <div className="flex items-center gap-3">
@@ -23,11 +24,11 @@ const Monitor = () => {
         </div>
         
         <nav className="monitor-nav mt-12">
-          <div className="nav-item active">📊 Dashboard</div>
-          <div className="nav-item">📹 Camera Feed</div>
-          <div className="nav-item">📜 Event Log</div>
-          <div className="nav-item">⚙️ System Vitals</div>
-          <div className="nav-item">📁 Archived</div>
+          <Link to="/dashboard" className="nav-item">📊 Dashboard</Link>
+          <Link to="/monitor" className="nav-item active">📹 Camera Feed</Link>
+          <Link to="/docs" className="nav-item">📜 Event Log</Link>
+          <Link to="/config" className="nav-item">⚙️ System Vitals</Link>
+          <Link to="/archive" className="nav-item">📁 Archived</Link>
         </nav>
 
         <div className="sidebar-footer mt-auto">
@@ -35,8 +36,8 @@ const Monitor = () => {
             EMERGENCY KILL
           </Button>
           <div className="footer-links">
-            <div className="footer-link">❓ Support</div>
-            <div className="footer-link">📄 Documentation</div>
+            <Link to="/support" className="footer-link">❓ Support</Link>
+            <Link to="/docs" className="footer-link">📄 Documentation</Link>
           </div>
         </div>
       </div>
