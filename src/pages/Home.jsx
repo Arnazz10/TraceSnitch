@@ -11,9 +11,8 @@ const Home = () => {
       <main>
         <section className="hero">
           <div className="container hero-content fade-in">
-            <h1 className="hero-title flex flex-col items-center">
-              <img src="/logo.png" alt="" style={{ width: '180px', height: 'auto', marginBottom: '2rem' }} className="fade-in" />
-              <span>PRECISION <span className="neon-glow italic">BEYOND</span> PERCEPTION</span>
+            <h1 className="hero-title">
+              PRECISION <span className="neon-glow italic">BEYOND</span> PERCEPTION
             </h1>
             <p className="hero-subtitle">
               Deploying sub-micron fidelity neural scanning for next-generation hardware manufacturing. 
